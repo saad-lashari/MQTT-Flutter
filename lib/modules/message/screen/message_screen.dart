@@ -41,23 +41,20 @@ class _MessageScreenState extends State<MessageScreen> {
   }
 
   Widget _buildAppBar(BuildContext context) {
-    return AppBar(
-        title: const Text('Cowlar MQTT Task'),
-        // backgroundColor: Colors.greenAccent,
-        actions: <Widget>[
-          Padding(
-            padding: const EdgeInsets.only(right: 15.0),
-            child: GestureDetector(
-              onTap: () {
-                Navigator.of(context).pushNamed(SETTINGS_ROUTE);
-              },
-              child: Icon(
-                Icons.settings,
-                size: 26.0,
-              ),
-            ),
-          )
-        ]);
+    return AppBar(title: const Text('Cowlar MQTT Task'), actions: <Widget>[
+      Padding(
+        padding: const EdgeInsets.only(right: 15.0),
+        child: GestureDetector(
+          onTap: () {
+            Navigator.of(context).pushNamed(SETTINGS_ROUTE);
+          },
+          child: Icon(
+            Icons.settings,
+            size: 26.0,
+          ),
+        ),
+      )
+    ]);
   }
 
   Widget _buildColumn(MQTTManager manager) {

@@ -33,7 +33,6 @@ class _SettingsScreenState extends State<SettingsScreen> {
   Widget _buildAppBar(BuildContext context) {
     return AppBar(
       title: const Text('Settings'),
-      // backgroundColor: Colors.greenAccent,
     );
   }
 
