@@ -1,6 +1,6 @@
-# MQTT APP
+# FlutterMQTTApp
 
-A task from cowlar design studio.
+A Flutter application utilizing MQTT for real-time messaging and communication. Ideal for IoT projects, this app provides a reliable and efficient way to send and receive messages between devices. Perfect for developers looking to integrate MQTT protocol into their Flutter projects.
 ## Packages
 For State Management=> provider
 For server calls => mqtt_client
